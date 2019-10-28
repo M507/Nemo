@@ -1,0 +1,4 @@
+netsh advfirewall firewall delete rule name="Block Ports"
+netsh advfirewall firewall add rule name="IP Allow" dir=in interface=any action=allow remoteip=any
+NetSh Advfirewall set allprofiles state off
+

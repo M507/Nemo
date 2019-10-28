@@ -1,0 +1,6 @@
+C:\Users\Mohad\source\repos\WindowsPlague-master\bin\Release\WindowsPlague.exe.config
+C:\Users\Mohad\source\repos\WindowsPlague-master\bin\Release\WindowsPlague.exe
+C:\Users\Mohad\source\repos\WindowsPlague-master\bin\Release\WindowsPlague.pdb
+C:\Users\Mohad\source\repos\WindowsPlague-master\obj\Release\WindowsPlague.csproj.CoreCompileInputs.cache
+C:\Users\Mohad\source\repos\WindowsPlague-master\obj\Release\WindowsPlague.exe
+C:\Users\Mohad\source\repos\WindowsPlague-master\obj\Release\WindowsPlague.pdb

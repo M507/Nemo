@@ -1,0 +1,7 @@
+P:\rootkit\Clean\Clean\Clean\bin\Debug\Clean.exe.config
+P:\rootkit\Clean\Clean\Clean\bin\Debug\Clean.exe
+P:\rootkit\Clean\Clean\Clean\bin\Debug\Clean.pdb
+P:\rootkit\Clean\Clean\Clean\obj\Debug\Clean.csprojAssemblyReference.cache
+P:\rootkit\Clean\Clean\Clean\obj\Debug\Clean.csproj.CoreCompileInputs.cache
+P:\rootkit\Clean\Clean\Clean\obj\Debug\Clean.exe
+P:\rootkit\Clean\Clean\Clean\obj\Debug\Clean.pdb

@@ -1,0 +1,13 @@
+P:\rootkit\Clean\Clean\Clean\bin\Release\Clean.exe.config
+P:\rootkit\Clean\Clean\Clean\bin\Release\Clean.exe
+P:\rootkit\Clean\Clean\Clean\bin\Release\Clean.pdb
+P:\rootkit\Clean\Clean\Clean\obj\Release\Clean.csproj.CoreCompileInputs.cache
+P:\rootkit\Clean\Clean\Clean\obj\Release\Clean.exe
+P:\rootkit\Clean\Clean\Clean\obj\Release\Clean.pdb
+P:\rootkit\Clean\Clean\Clean\obj\Release\Clean.csprojAssemblyReference.cache
+E:\rootkit2\day3\rootkit\Clean\Clean\Clean\bin\Release\Clean.exe.config
+E:\rootkit2\day3\rootkit\Clean\Clean\Clean\bin\Release\Clean.exe
+E:\rootkit2\day3\rootkit\Clean\Clean\Clean\bin\Release\Clean.pdb
+E:\rootkit2\day3\rootkit\Clean\Clean\Clean\obj\Release\Clean.csproj.CoreCompileInputs.cache
+E:\rootkit2\day3\rootkit\Clean\Clean\Clean\obj\Release\Clean.exe
+E:\rootkit2\day3\rootkit\Clean\Clean\Clean\obj\Release\Clean.pdb

@@ -1,0 +1,7 @@
+C:\Users\Mohad\source\repos\Checker\Checker\bin\Release\Checker.exe.config
+C:\Users\Mohad\source\repos\Checker\Checker\bin\Release\Checker.exe
+C:\Users\Mohad\source\repos\Checker\Checker\bin\Release\Checker.pdb
+C:\Users\Mohad\source\repos\Checker\Checker\obj\Release\Checker.csprojAssemblyReference.cache
+C:\Users\Mohad\source\repos\Checker\Checker\obj\Release\Checker.csproj.CoreCompileInputs.cache
+C:\Users\Mohad\source\repos\Checker\Checker\obj\Release\Checker.exe
+C:\Users\Mohad\source\repos\Checker\Checker\obj\Release\Checker.pdb

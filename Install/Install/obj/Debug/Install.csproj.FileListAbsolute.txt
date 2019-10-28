@@ -1,0 +1,7 @@
+C:\Users\Mohad\source\repos\Install\Install\bin\Debug\Install.exe.config
+C:\Users\Mohad\source\repos\Install\Install\bin\Debug\Install.exe
+C:\Users\Mohad\source\repos\Install\Install\bin\Debug\Install.pdb
+C:\Users\Mohad\source\repos\Install\Install\obj\Debug\Install.csprojAssemblyReference.cache
+C:\Users\Mohad\source\repos\Install\Install\obj\Debug\Install.csproj.CoreCompileInputs.cache
+C:\Users\Mohad\source\repos\Install\Install\obj\Debug\Install.exe
+C:\Users\Mohad\source\repos\Install\Install\obj\Debug\Install.pdb

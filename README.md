@@ -13,7 +13,12 @@
 - Hides processes, files, and directories that start with $vmware-<whatever>
 -- 
 - Installs Powershell v2
-- TODO....
+- TODO.... <continue>
+- ...
+- ...
+- Removes everything from event manager
+
+
 
 
 # List of processes:
@@ -75,6 +80,14 @@
 - Hidden binary path: C:\ProgramData\Microsoft\Windows\Caches\
 - Description:
   - This binary makes sure that Nemo implant is running aka makes sure that Red-Team has a shell.
+  
+#### Clean.exe
+- Real binary name: Wherever you want
+- Real binary path: Wherever you want
+- Hidden binary name: Has no hidden process 
+- Hidden binary path: Has no hidden process
+- Description:
+  - This binary cleans almost every evidence after deploying Nemo
 
 
 ## Integrated projects:

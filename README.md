@@ -11,7 +11,7 @@
 
 # List of processes:
 ## Example:
-### What is it
+#### What is it
 - Real binary name: KeyChain.exe
 - Real binary path: <path>
 - Hidden binary name: $vmware-005.exe
@@ -19,7 +19,7 @@
 - Description:
   - It does something.
 
-### Keylogger 
+#### Keylogger 
 - Real binary name: KeyChain.exe
 - Real binary path: <path>
 - Hidden binary name: $vmware-005.exe
@@ -27,7 +27,7 @@
 - Description:
   - It sends everything back to <IP>:80/bose.php.
 
-### Callbacks
+#### Callbacks
 - Real binary name: PFRE.exe
 - Real binary path: C:\Windows\
 - Hidden binary name: $vmware-001.exe
@@ -35,7 +35,7 @@
 - Description:
   - This binary sends back a shell to S-Nemo.py
 
-# Malware 
+#### Malware 
 - Real binary name: WinHypro.exe
 - Real binary path: C:\Windows\
 - Hidden binary name: $vmware-002.exe
@@ -44,7 +44,7 @@
   - Infects every new file in the system according to your needs.
   - Removes for all Sysinternals binaries.
 
-### Nemo.exe
+#### Nemo.exe
 - Real binary name: Wherever you want
 - Real binary path: Wherever you want
 - Hidden binary name: Has no hidden process 
@@ -53,7 +53,7 @@
   - This is the implant that downloads, configures, and installs all the needed files.
   - It needs to run once. It's the process that starts everything.
 
-### Installing Rootkit
+#### Installing Rootkit
 - Real binary name: NT.exe
 - Real binary path: C:\Program Files\Windows NT\
 - Hidden binary name: Has no hidden process since it runs once
@@ -61,7 +61,7 @@
 - Description:
   - NT.exe is what loads <name>.dll into <Key>
 
-### Checker
+#### Checker
 - Real binary name: WMSys.exe
 - Real binary path: C:\Windows\
 - Hidden binary name:$vmware-000.exe

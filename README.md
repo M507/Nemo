@@ -91,6 +91,11 @@
 - Description:
   - This binary cleans almost every evidence after deploying Nemo
 
+### Execution flow:
+<Add digrams>
+  
+### In action:
+<Add digrams>
 
 ## Integrated projects:
 - https://github.com/M507/M-Botnet

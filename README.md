@@ -1,12 +1,19 @@
 # Nemo
 
 ## What does it do:
-- Disables Windows Firewall via local and domain policies.
-- Disables Windows task manager.
+- Manipulates local and domain policies
+  - Disables Windows Firewall.
+  - Disables Windows task manager.
 - Deletes Windows Defender AV signature database.
 - Deletes Windows Defender.
 - Creates a Powershell profile.
+  - Drops firewall rules
+  - Starts WinRM, RDP, and <> services
+  - Creates users.
 - Hides processes, files, and directories that start with $vmware-<whatever>
+-- 
+- Installs Powershell v2
+- TODO....
 
 
 # List of processes:

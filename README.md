@@ -10,6 +10,7 @@
   - Drops firewall rules
   - Starts WinRM, RDP, and <> services
   - Creates users.
+  - Remaps powershell aliases
 - Hides processes, files, and directories that start with $vmware-<whatever>
 -- 
 - Installs Powershell v2

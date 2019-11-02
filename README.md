@@ -16,33 +16,33 @@
 - Real binary path: <path>
 - Hidden binary name: $vmware-005.exe
 - Hidden binary path: <path>
-#### Description:
-- It does something.
+- Description:
+  - It does something.
 
 ### Keylogger 
 - Real binary name: KeyChain.exe
 - Real binary path: <path>
 - Hidden binary name: $vmware-005.exe
 - Hidden binary path: <path>
-#### Description:
-- It sends everything back to <IP>:80/bose.php.
+- Description:
+  - It sends everything back to <IP>:80/bose.php.
 
 ### Callbacks
 - Real binary name: PFRE.exe
 - Real binary path: C:\Windows\
 - Hidden binary name: $vmware-001.exe
 - Hidden binary path: C:\ProgramData\Microsoft\Windows\Caches\
-#### Description:
-- This binary sends back a shell to S-Nemo.py
+- Description:
+  - This binary sends back a shell to S-Nemo.py
 
 # Malware 
 - Real binary name: WinHypro.exe
 - Real binary path: C:\Windows\
 - Hidden binary name: $vmware-002.exe
 - Hidden binary path: C:\ProgramData\Microsoft\Windows\Caches\
-#### Description:
-- Infects every new file in the system according to your needs.
-- Removes for all Sysinternals binaries.
+- Description:
+  - Infects every new file in the system according to your needs.
+  - Removes for all Sysinternals binaries.
 
 ### Nemo.exe
 - Real binary name: Wherever you want
@@ -50,24 +50,24 @@
 - Hidden binary name: Has no hidden process 
 - Hidden binary path: Has no hidden process
 - Description:
-- This is the implant that downloads, configures, and installs all the needed files.
-- It needs to run once. It's the process that starts everything.
+  - This is the implant that downloads, configures, and installs all the needed files.
+  - It needs to run once. It's the process that starts everything.
 
 ### Installing Rootkit
 - Real binary name: NT.exe
 - Real binary path: C:\Program Files\Windows NT\
 - Hidden binary name: Has no hidden process since it runs once
 - Hidden binary path: Has no hidden process since it runs once
-#### Description:
-- NT.exe is what loads <name>.dll into <Key>
+- Description:
+  - NT.exe is what loads <name>.dll into <Key>
 
 ### Checker
 - Real binary name: WMSys.exe
 - Real binary path: C:\Windows\
 - Hidden binary name:$vmware-000.exe
 - Hidden binary path: C:\ProgramData\Microsoft\Windows\Caches\
-#### Description:
-- This binary makes sure that Nemo implant is running aka makes sure that Red-Team has a shell.
+- Description:
+  - This binary makes sure that Nemo implant is running aka makes sure that Red-Team has a shell.
 
 
 ## Integrated projects:

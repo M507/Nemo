@@ -80,7 +80,8 @@
 - Hidden binary name:$vmware-000.exe
 - Hidden binary path: C:\ProgramData\Microsoft\Windows\Caches\
 - Description:
-  - This binary makes sure that Nemo implant is running aka makes sure that Red-Team has a shell.
+  - This binary makes sure that Nemo implant is running aka makes sure that Red-Team has a shell by checking that $vmware-001.exe and $vmware-002.exe are running. 
+  - Resets and appends firewall rules
   
 #### Clean.exe
 - Real binary name: Wherever you want

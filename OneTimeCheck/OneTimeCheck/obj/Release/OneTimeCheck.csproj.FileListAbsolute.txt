@@ -1,0 +1,6 @@
+C:\Users\MohadRed\source\repos\OneTimeCheck\OneTimeCheck\bin\Release\OneTimeCheck.exe.config
+C:\Users\MohadRed\source\repos\OneTimeCheck\OneTimeCheck\bin\Release\OneTimeCheck.exe
+C:\Users\MohadRed\source\repos\OneTimeCheck\OneTimeCheck\bin\Release\OneTimeCheck.pdb
+C:\Users\MohadRed\source\repos\OneTimeCheck\OneTimeCheck\obj\Release\OneTimeCheck.csprojAssemblyReference.cache
+C:\Users\MohadRed\source\repos\OneTimeCheck\OneTimeCheck\obj\Release\OneTimeCheck.exe
+C:\Users\MohadRed\source\repos\OneTimeCheck\OneTimeCheck\obj\Release\OneTimeCheck.pdb

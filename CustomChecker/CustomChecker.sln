@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomChecker", "CustomChecker\CustomChecker.csproj", "{8AA969B6-70D8-42A8-BB0E-B7244E40F2F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AA969B6-70D8-42A8-BB0E-B7244E40F2F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA969B6-70D8-42A8-BB0E-B7244E40F2F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA969B6-70D8-42A8-BB0E-B7244E40F2F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA969B6-70D8-42A8-BB0E-B7244E40F2F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3A96E1E-D7B3-48A6-91DD-9C1703E5BA47}
+	EndGlobalSection
+EndGlobal

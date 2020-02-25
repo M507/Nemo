@@ -105,8 +105,8 @@ First interaction with the RedTeam server to download the needed malware.
 Beaconing to pwnboard.
 ![Nemo](https://github.com/M507/Nemo/raw/master/Examples/In-action.PNG)
 
-The beautiful shells on S-Nemo.py
-![Nemo](https://github.com/M507/Nemo/raw/master/Examples/1.PNG)
+Hidden processes.
+![Nemo](https://raw.githubusercontent.com/M507/Nemo/master/Examples/NemoProcesses.PNG)
 
 ## Integrated projects:
 - https://github.com/M507/M-Botnet

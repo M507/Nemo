@@ -106,7 +106,7 @@ Beaconing to pwnboard.
 ![Nemo](https://github.com/M507/Nemo/raw/master/Examples/In-action.PNG)
 
 Hidden processes.
-![Nemo](https://raw.githubusercontent.com/M507/Nemo/master/Examples/NemoProcesses.PNG)
+![Nemo](https://github.com/M507/Nemo/blob/master/Examples/NemoProcesses.PNG)
 
 ## Integrated projects:
 - https://github.com/M507/M-Botnet

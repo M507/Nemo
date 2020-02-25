@@ -113,4 +113,5 @@ Hidden processes.
 - https://github.com/bytecode77/r77-rootkit
 - https://github.com/RITRedteam/WindowsPlague
 - https://github.com/M507/Restless
+- https://github.com/RITRedteam/SharpWatchdogs
 - https://github.com/micahjmartin/pwnboard

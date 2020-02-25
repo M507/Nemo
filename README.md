@@ -1,3 +1,5 @@
+
+
 # Nemo
 
 ## What does it do:
@@ -91,13 +93,24 @@
 - Description:
   - This binary cleans almost every evidence after deploying Nemo
 
-### Execution flow:
-<Add digrams>
-  
+### Execution flow
+#### Diagram Symbols:
+![DNemo](https://github.com/M507/Nemo/raw/master/Examples/NemoDiagramD.png)
+#### Flow:
+![Nemo](https://github.com/M507/Nemo/raw/master/Examples/NemoDiagram.png)
 ### In action:
-<Add digrams>
+First interaction with the RedTeam server to download the needed malware.
+![Nemo](https://github.com/M507/Nemo/raw/master/Examples/HTTPLoading.png)
+
+Beaconing to pwnboard.
+![Nemo](https://github.com/M507/Nemo/raw/master/Examples/In-action.PNG)
+
+The beautiful shells on S-Nemo.py
+![Nemo](https://github.com/M507/Nemo/raw/master/Examples/1.PNG)
 
 ## Integrated projects:
 - https://github.com/M507/M-Botnet
 - https://github.com/bytecode77/r77-rootkit
 - https://github.com/RITRedteam/WindowsPlague
+- https://github.com/M507/Restless
+- https://github.com/micahjmartin/pwnboard

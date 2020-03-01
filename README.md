@@ -15,11 +15,9 @@
   - Remaps powershell aliases
 - Hides processes, files, and directories that start with $vmware-<whatever>
 -- 
-- Installs Powershell v2
 - TODO.... <continue>
-- ...
-- ...
-- Removes everything from event manager
+- Runs multiple processes to do different tasks mentioned below.
+- Removes everything from event manager (The initial deployment)
 
 
 

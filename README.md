@@ -1,4 +1,6 @@
 
+### DISCLAIMERS
+The information contained in this repo is for educational purposes ONLY! I DO NOT hold any responsibility for any misuse or damage of the information provided in my blog posts, discussions, activities, repositories, or exercises.
 
 # Nemo
 
@@ -6,16 +8,15 @@
 - Manipulates local and domain policies
   - Disables Windows Firewall.
   - Disables Windows task manager.
+  - Disables selected binaries.
 - Deletes Windows Defender AV signature database.
 - Deletes Windows Defender.
 - Creates a Powershell profile.
   - Drops firewall rules
-  - Starts WinRM, RDP, and <> services
+  - Starts WinRM & RDP.
   - Creates users.
   - Remaps powershell aliases
-- Hides processes, files, and directories that start with $vmware-<whatever>
--- 
-- TODO.... <continue>
+- Hides processes, files, and directories that start with $vmware-{whatever}
 - Runs multiple processes to do different tasks mentioned below.
 - Removes everything from event manager (The initial deployment)
 
@@ -26,17 +27,17 @@
 ## Example:
 #### What is it
 - Real binary name: KeyChain.exe
-- Real binary path: <path>
+- Real binary path: {path}
 - Hidden binary name: $vmware-005.exe
-- Hidden binary path: <path>
+- Hidden binary path: {path}
 - Description:
   - It does something.
 
 #### Keylogger 
 - Real binary name: KeyChain.exe
-- Real binary path: <path>
+- Real binary path: {path}
 - Hidden binary name: $vmware-005.exe
-- Hidden binary path: <path>
+- Hidden binary path: {path}
 - Description:
   - It sends everything back to <IP>:80/bose.php.
 

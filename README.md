@@ -99,12 +99,15 @@ The information contained in this repo is for educational purposes ONLY! I DO NO
 ![Nemo](https://github.com/M507/Nemo/raw/master/Examples/NemoDiagram.png)
 ### In action:
 First interaction with the RedTeam server to download the needed malware.
+
 ![Nemo](https://github.com/M507/Nemo/raw/master/Examples/HTTPLoading.png)
 
 Beaconing to pwnboard.
+
 ![Nemo](https://github.com/M507/Nemo/raw/master/Examples/In-action.PNG)
 
 Hidden processes.
+
 ![Nemo](https://github.com/M507/Nemo/blob/master/Examples/NemoProcesses.PNG)
 
 ## Integrated projects:
